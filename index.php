@@ -52,7 +52,7 @@
 			<h2>Join Hovélo</h2>
 			<p>To join in with the Hovélo club rides, all you need to do is <b>turn up!</b></p>
 			<p><b>What you'll need:</b> A road (or hybrid) bike, a helmet, spare inner tube with pump and tyre levers, water or sports drink, food such as enery bars.</p>
-			<p><b>Why you should join:</b> It's social, you get to ride with others, you can geek out about bikes (or not; if you don't want to), you get to practice riding in a group and you get a discount at <a href="http://www.brightonbikemonkey.co.uk/" rel="nofollow">Brighton Bike Monkey</a>! (plus there is the usual health benefits and getting out to see the countryside malarkey)</p>
+			<p><b>Why you should join:</b> It's social, you get to ride with others, you can geek out about bikes (or not - if you don't want to), you get to practice riding in a group and you get a discount at <a href="http://www.brightonbikemonkey.co.uk/" rel="nofollow">Brighton Bike Monkey</a>! (plus there is the usual health benefits and getting out to see the countryside malarkey)</p>
 			<p>Updates about the rides are often tweeted and emailed to the mailing list - so make sure you keep in touch.</p>
 			<p class="social-wrap">
 				<a href="http://www.twitter.com/_hovelo" rel="nofollow"  class="social twitter">@_hovelo</a>
