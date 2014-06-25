@@ -60,9 +60,9 @@
 			</p>
 		</article>
 		<article class="wrap featured">
-			<form action="http://mikestreety.us8.list-manage.com/subscribe/post?u=a8d3cba48e59d2be210a5d689&amp;id=74cc8e85b3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-				<label for="mce-EMAIL">To sign up to the mailing list - please enter your email address:</label>
-				<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+			<form action="signup-process.php" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
+				<label>To sign up to the mailing list - please enter your email address:</label>
+				<input type="email" value="" name="email" class="required email" id="mce-EMAIL">
 				<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
 			</form>
 		</article>
@@ -76,5 +76,6 @@
 <?php endforeach; ?>
 			</ul>
 		</article>
+		<script type="text/javascript" src="assets/js/scripts.js"></script>
 	</body>
 </html>
