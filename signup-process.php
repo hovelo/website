@@ -7,6 +7,8 @@
 
 	$email = $_POST['email'];
 
+	header('Content-Type: application/json');
+
 	try {
 		$return = $mc->lists->subscribe(
 			'74cc8e85b3',

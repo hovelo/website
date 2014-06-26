@@ -63,6 +63,7 @@
 			<form action="signup-process.php" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
 				<label>To sign up to the mailing list - please enter your email address:</label>
 				<input type="email" value="" name="email" class="required email" id="mce-EMAIL">
+				<div class="error msg js-error"></div>
 				<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
 			</form>
 		</article>
