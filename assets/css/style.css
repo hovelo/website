@@ -108,6 +108,14 @@ label {
 	margin-top: 0;
 }
 
+.logo {
+	display: block;
+	margin: 0 auto;
+	max-width: 400px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
 .hero {
 	font-size: 22px;
 }
@@ -180,6 +188,10 @@ label {
 	background: #176688;
 }
 
+.button.disabled {
+	background: #666;
+}
+
 .list {
 	margin: 0;
 	padding: 0;
@@ -196,6 +208,21 @@ label {
 	color: #176688;
 	font-size: 16px;
 	padding-left: 10px;
+}
+
+.msg {
+	font-size: 14px;
+	color: #fff;
+	background: #DB2A44;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 15px;
+	max-width: 500px;
+	margin: 0 auto 20px;
+}
+.success {
+	background: #31A88C;
+	display: none;
 }
 
 @media (max-width: 500px) {
