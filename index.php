@@ -39,7 +39,7 @@
 	</head>
 	<body>
 		<article class="wrap hero">
-	  		<h1>Hovélo</h1>
+	  		<img src="/assets/images/logo.png" class="logo">
 	  		<p>Hovélo is an informal Hove-based cycling club.</p>
 	  		<p>We meet every <b>Sunday</b> at <b>8am</b> outside the Hove Park Cafe</p>
 		</article>

@@ -108,6 +108,14 @@ label {
 	margin-top: 0;
 }
 
+.logo {
+	display: block;
+	margin: 0 auto;
+	max-width: 400px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
 .hero {
 	font-size: 22px;
 }
