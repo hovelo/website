@@ -44,12 +44,14 @@ body {
 	font-weight: 300;
 	color: #2E3C42;
 	padding: 40px 0;
+	background: #fff;
 }
 h1, h2 {
 	font-weight: 400;
 	font-family: 'Pacifico', cursive;
 	margin: 0 0 20px;
 	color: #31A88C;
+	text-align: center;
 }
 h1 {
 	font-size: 100px;
@@ -94,8 +96,9 @@ label {
 .wrap {
 	max-width: 700px;
 	margin: 0 auto;
-	text-align: center;
+	text-align: left;
 	padding: 0 20px;
+	background: #fff;
 }
 .wrap + .wrap {
 	border-top: 1px dotted #ddd;
@@ -110,15 +113,18 @@ label {
 
 .hero {
 	font-size: 22px;
+	text-align: center;
 }
 .wrap.featured {
 	padding: 20px;
 	border-top: 0;
 	max-width: 100%;
 	background: #f2f2f2;
+	text-align: center;
 }
 .social-wrap {
 	margin-bottom: 0;
+	text-align: center;
 }
 .social {
 	-webkit-border-radius: 3px;
@@ -130,19 +136,21 @@ label {
 	transition: opacity 0.2s ease;
 	display: inline-block;
 	padding: 10px 15px 10px 60px;
-	margin: 0 15px 15px;
+	margin: 0 5px 15px;
 	line-height: 1;
 	color: #fff;
-	font-size: 18px;
-	border: 1px solid #2795E9;
+	font-size: 16px;
 	text-decoration: none;
 	background: #55acee 15px center no-repeat url('../images/twitter.png');
 }
 .strava {
 	background-color: #FC4C02;
-	border-color: #C93D02;
 	background-image: url('../images/strava.png');
 	padding-left: 43px;
+}
+.facebook {
+	background-color: #3B5998;
+	background-image: url('../images/facebook.png');
 }
 .social:hover {
 	filter: alpha(opacity=80);
@@ -188,6 +196,7 @@ label {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	text-align: center;
 }
 .list a {
 	text-decoration: none;

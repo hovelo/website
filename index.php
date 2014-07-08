@@ -1,6 +1,6 @@
 <?php $data = json_decode(file_get_contents(dirname(__FILE__) . '/data/data.json'));?>
 <!doctype html>
-<html class="no-js" itemscope lang="">
+<html class="no-js" itemscope lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,22 +41,45 @@
 	<body>
 		<article class="wrap hero">
 	  		<h1>Hovélo</h1>
-	  		<p>Hovélo is an informal Hove-based cycling club.</p>
-	  		<p>We meet every <b>Sunday</b> at <b>8am</b> outside the Hove Park Cafe</p>
+			<p>We’re a friendly group of riders with one dedicated goal - to have&nbsp;fun.</p>
+			<p>If you’d like to ride with us, we’d love to see you for an <strong>8am</strong> start every <strong>Sunday</strong> outside the Hove Park Café.</p>
 		</article>
 		<article class="wrap">
-			<h2>What is Hovélo?</h2>
-			<p>Hovélo is a casual cycling group open to cyclists who have confidence on the road and are comfortable with a ride average of 14 - 16mph.</p>
-			<p>We meet every Sunday at 8am to head out for a ride. The ride lengths vary, from 30 miles up to 50 miles - we tend to alternate the distance weekly, so be sure to check our <a href="http://www.twitter.com/_hovelo" rel="nofollow">Twitter</a> for updates on what rides are coming up.</p>
+			<h2>Who is Hovélo for?</h2>
+			<p>Hovelo is open to everyone but you’ll need to be comfortable riding at an average speed (including climbs...and there are some) of 14 - 16mph. </p>
+			<p>We’ll be doing a couple of different paces for riders looking to get their speed and distances up and for experienced riders looking for a bigger challenge.</p>
+			<p>This isn’t about tearing people’s legs off or suffering - you’ll can find that elsewhere. This is about getting used to riding in a group and having fun. There’ll be chatting, jokes and discussions about cycling etiquette.</p>
+			<p>Shaved legs entirely optional for both sexes.</p>
 		</article>
 		<article class="wrap">
-			<h2>Join Hovélo</h2>
-			<p>To join in with the Hovélo club rides, all you need to do is <b>turn up!</b></p>
-			<p><b>What you'll need:</b> A road (or hybrid) bike, a helmet, spare inner tube with pump and tyre levers, water or sports drink, food such as energy bars.</p>
-			<p><b>Why you should join:</b> It's social, you get to ride with others, you can geek out about bikes (or not - if you don't want to), you get to practice riding in a group and you get a discount at <a href="http://www.brightonbikemonkey.co.uk/" rel="nofollow">Brighton Bike Monkey</a>! (plus there is the usual health benefits and getting out to see the countryside malarkey)</p>
-			<p>Updates about the rides are often tweeted and emailed to the mailing list - so make sure you keep in touch.</p>
+			<h2>Hovélo rides</h2>
+			<p>There are 2 types of ride from Hovelo which generally alternate.</p>
+			<h3>Standard</h3>
+			<p>Between 20 and 40 miles - at a slightly slower pace, this is for everyone - especially those wanting to increase their regular distance and introduce people to the club. The pace of these rides along the flat will generally be between 15-18 mph.</p>
+			<p>Think focussed bimble through some lovely scenery.</p>
+			<h3>Long</h3>
+			<p>More experienced riders can stretch their legs and their skills on these rides. They’ll be anywhere between 45 - 70 miles (but generally between 50 and 60). The pace will be  faster than the standard rides but the chatting, jokes and banter won’t differ much.</p>
+			<p>Great for riders training for sportives and upping their fitness levels.</p>
+			<p>Ride type and length will be detailed in the email newsletter or on our social media pages</p>
+		</article>
+		<article class="wrap">
+			<h2>What should I bring?</h2>
+			<ul>
+				<li>A road (or hybrid) bike</li>
+				<li>A helmet</li>
+				<li>Spare inner tube with pump and tyre levers</li>
+				<li>Water or sports drink</li>
+				<li>Food (such as energy bars)</li>
+			</ul>
+			<p>Food and 2 drinks bottles are very highly recommended on the <b>Long</b> rides.</p>
+		</article>
+		<article class="wrap">
+			<h2>How do I Join?</h2>
+			<p>You simply turn up at 8am outside the Hove Park Cafe with your bike.</p>
+			<p>Sign up to the newsletter to be kept up to date with that rides are coming up and an information about the club or follow us on <a href="http://www.twitter.com/_hovelo" rel="nofollow">twitter</a> and <a href="http://www.facebook.com/hovelo" rel="nofollow">facebook</a>.</p>
 			<p class="social-wrap">
 				<a href="http://www.twitter.com/_hovelo" rel="nofollow"  class="social twitter">@_hovelo</a>
+				<a href="http://www.facebook.com/hovelo" rel="nofollow"  class="social facebook">Hovélo on facebook</a>
 				<a href="http://www.strava.com/clubs/hovelo" rel="nofollow" class="social strava">Hovélo on Strava</a>
 			</p>
 		</article>
@@ -69,7 +92,20 @@
 			</form>
 		</article>
 		<article class="wrap">
-			<h2 class="subtle">Previous Editions</h2>
+			<h2>Why should I join?</h2>
+			<ul>
+				<li>It's social</li>
+				<li>You get to ride with others and practice riding as a group</li>
+				<li>You can geek out about bikes (or not - if you don't want to)</li>
+				<li>You get to explore Sussex and find new routes</li>
+				<li>You get to learn bike skills (including how to fix punctures quickly!)</li>
+				<li>You get to meet local cyclists</li>
+				<li>You exclusive discount at <a href="http://www.brightonbikemonkey.co.uk/" rel="nofollow">Brighton Bike Monkey</a>!</li>
+			</ul>
+		</article>
+
+		<article class="wrap">
+			<h2 class="subtle">Previous E-mail Newsletters</h2>
 			<ul class="list">
 <?php foreach($data->mailchimp->campaigns as $c) : ?>
 				<li>
