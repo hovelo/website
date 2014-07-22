@@ -5,13 +5,13 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Hovélo - Hove-based cycling club</title>
-		<meta name="description" content="Hovélo is an informal Hove-based road cycling club with weekly Sunday ride-outs starting and finishing outside Hove Park Cafe">
+		<meta name="description" content="Hovélo is an informal Hove-based road cycling club with weekly weekend ride-outs starting and finishing in Hove">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- Schema.org markup for Google+ -->
 		<meta itemprop="name" content="Hovélo - Hove-based cycling club">
-		<meta itemprop="description" content="Hovélo is an informal Hove-based road cycling club with weekly Sunday ride-outs starting and finishing outside Hove Park Cafe">
-		<meta itemprop="image" content="http://www.example.com/image.jpg">
+		<meta itemprop="description" content="Hovélo is an informal Hove-based road cycling club with weekly weekend ride-outs starting and finishing in Hove">
+		<meta itemprop="image" content="http://www.hovelo.co.uk/assets/images/logo.png">
 
 		<!-- Twitter Card data -->
 		<meta name="twitter:card" content="summary">
@@ -20,9 +20,27 @@
 		<meta property="og:title" content="Hovélo - Hove-based cycling club" />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="http://www.hovelo.com/" />
-		<meta property="og:image" content=" http://example.com/image.jpg" />
-		<meta property="og:description" content="Hovélo is an informal Hove-based road cycling club with weekly Sunday ride-outs starting and finishing outside Hove Park Cafe" />
+		<meta property="og:image" content=" http://www.hovelo.co.uk/assets/images/logo.png" />
+		<meta property="og:description" content="Hovélo is an informal Hove-based road cycling club with weekly weekend ride-outs starting and finishing in Hove" />
 		<meta property="og:site_name" content="Hovélo" />
+
+		<link rel="shortcut icon" href="/assets/images/icons/favicon.ico">
+		<link rel="apple-touch-icon" sizes="57x57" href="/assets/images/icons/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/assets/images/icons/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/assets/images/icons/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/assets/images/icons/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/assets/images/icons/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/assets/images/icons/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/assets/images/icons/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/assets/images/icons/apple-touch-icon-152x152.png">
+		<link rel="icon" type="image/png" href="/assets/images/icons/favicon-196x196.png" sizes="196x196">
+		<link rel="icon" type="image/png" href="/assets/images/icons/favicon-160x160.png" sizes="160x160">
+		<link rel="icon" type="image/png" href="/assets/images/icons/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="/assets/images/icons/favicon-16x16.png" sizes="16x16">
+		<link rel="icon" type="image/png" href="/assets/images/icons/favicon-32x32.png" sizes="32x32">
+		<meta name="msapplication-TileColor" content="#00aba9">
+		<meta name="msapplication-TileImage" content="/assets/images/icons/mstile-144x144.png">
+		<meta name="msapplication-config" content="/assets/images/icons/browserconfig.xml">
 
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -41,8 +59,14 @@
 	<body>
 		<article class="wrap hero">
 	  		<h1>Hovélo</h1>
-			<p>We’re a friendly group of riders with one dedicated goal - to have&nbsp;fun.</p>
-			<p>If you’d like to ride with us, we’d love to see you for an <strong>8am</strong> start every <strong>Sunday</strong> outside the Hove Park Café.</p>
+			<p class="meta">We’re a friendly group of riders with one dedicated goal - to have&nbsp;fun. If you’d like to ride with us, we’d love to see you at the weekend.</p>
+			<p><strong>7:30am</strong> every <strong>Saturday</strong> outside the Goldstone Small Batch Coffee Company</p>
+			<p><strong>8am</strong> every <strong>Sunday</strong> outside the Hove Park Café.</p>
+			<p class="social-wrap">
+				<a href="http://www.twitter.com/_hovelo" rel="nofollow"  class="social twitter">@_hovelo</a>
+				<a href="http://www.facebook.com/hovelo" rel="nofollow"  class="social facebook">Hovélo on facebook</a>
+				<a href="http://www.strava.com/clubs/hovelo" rel="nofollow" class="social strava">Hovélo on Strava</a>
+			</p>
 		</article>
 		<article class="wrap">
 			<h2>Who is Hovélo for?</h2>
@@ -75,7 +99,9 @@
 		</article>
 		<article class="wrap">
 			<h2>How do I Join?</h2>
-			<p>You simply turn up at 8am outside the Hove Park Cafe with your bike.</p>
+			<p>You simply turn up at one of the weekend rides.</p>
+			<p>Saturday morning is generally a Standard ride starting at <strong>7:30am</strong> outside the <a href="http://smallbatchcoffee.co.uk/locations/roastery-goldstone-villas-hove/" rel="nofollow">Goldstone Villas Small Batch Coffee Company</a></p>
+			<p>Sunday morning rides vary, but always start outside the <a href="http://hoveparkcafe.com/" rel="nofollow">Hove Park Café</a> at <strong>8am</strong></p>
 			<p>Sign up to the newsletter to be kept up to date with that rides are coming up and an information about the club or follow us on <a href="http://www.twitter.com/_hovelo" rel="nofollow">twitter</a> and <a href="http://www.facebook.com/hovelo" rel="nofollow">facebook</a>.</p>
 			<p class="social-wrap">
 				<a href="http://www.twitter.com/_hovelo" rel="nofollow"  class="social twitter">@_hovelo</a>
@@ -100,7 +126,7 @@
 				<li>You get to explore Sussex and find new routes</li>
 				<li>You get to learn bike skills (including how to fix punctures quickly!)</li>
 				<li>You get to meet local cyclists</li>
-				<li>You exclusive discount at <a href="http://www.brightonbikemonkey.co.uk/" rel="nofollow">Brighton Bike Monkey</a>!</li>
+				<li>You get exclusive discounts at <a href="http://www.brightonbikemonkey.co.uk/" rel="nofollow">Brighton Bike Monkey</a> and more!</li>
 			</ul>
 		</article>
 

@@ -114,6 +114,14 @@ label {
 .hero {
 	font-size: 22px;
 	text-align: center;
+	background: url('/assets/images/background.png') top center no-repeat;
+	background-size: 100% auto;
+}
+.hero h1 {
+	padding-top: 24.28%;
+}
+.hero .meta {
+	font-size: 90%;
 }
 .wrap.featured {
 	padding: 20px;
