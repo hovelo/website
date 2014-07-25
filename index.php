@@ -62,6 +62,7 @@
 			<p class="meta">We’re a friendly group of riders with one dedicated goal - to have&nbsp;fun. If you’d like to ride with us, we’d love to see you at the weekend.</p>
 			<p><strong>7:30am</strong> every <strong>Saturday</strong> outside the Goldstone Small Batch Coffee Company</p>
 			<p><strong>8am</strong> every <strong>Sunday</strong> outside the Hove Park Café.</p>
+			<p><em><strong>Please note: From the 3rd August, Sunday rides will be leaving from the Goldstone Small Batch</strong></em></p>
 			<p class="social-wrap">
 				<a href="http://www.twitter.com/_hovelo" rel="nofollow"  class="social twitter">@_hovelo</a>
 				<a href="http://www.facebook.com/hovelo" rel="nofollow"  class="social facebook">Hovélo on facebook</a>
@@ -101,7 +102,7 @@
 			<h2>How do I Join?</h2>
 			<p>You simply turn up at one of the weekend rides.</p>
 			<p>Saturday morning is generally a Standard ride starting at <strong>7:30am</strong> outside the <a href="http://smallbatchcoffee.co.uk/locations/roastery-goldstone-villas-hove/" rel="nofollow">Goldstone Villas Small Batch Coffee Company</a></p>
-			<p>Sunday morning rides vary, but always start outside the <a href="http://hoveparkcafe.com/" rel="nofollow">Hove Park Café</a> at <strong>8am</strong></p>
+			<p>Sunday morning rides vary, but always start outside the <a href="http://hoveparkcafe.com/" rel="nofollow">Hove Park Café</a> at <strong>8am</strong>. (From 3rd August, Sunday rides will leave from Small Batch)</p>
 			<p>Sign up to the newsletter to be kept up to date with that rides are coming up and an information about the club or follow us on <a href="http://www.twitter.com/_hovelo" rel="nofollow">twitter</a> and <a href="http://www.facebook.com/hovelo" rel="nofollow">facebook</a>.</p>
 			<p class="social-wrap">
 				<a href="http://www.twitter.com/_hovelo" rel="nofollow"  class="social twitter">@_hovelo</a>
