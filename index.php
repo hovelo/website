@@ -59,31 +59,31 @@
 	<body>
 		<article class="wrap hero">
 	  		<h1>Hovélo</h1>
-			<p class="meta">We’re a friendly group of riders with one dedicated goal - to have&nbsp;fun. If you’d like to ride with us, we’d love to see you at the weekend.</p>
-			<p><strong>7:30am</strong> every <strong>Saturday</strong> outside the Goldstone Small Batch Coffee Company</p>
-			<p><strong>8am</strong> every <strong>Sunday</strong> outside the Hove Park Café.</p>
-			<p><em><strong>Please note: From the 3rd August, Sunday rides will be leaving from the Goldstone Small Batch</strong></em></p>
+			<p class="meta">We're a friendly group of riders with one dedicated goal - to have&nbsp;fun. If you'd like to ride with us, we'd love to see you at the weekend.</p>
+			<p><strong>7:30am</strong> every <strong>Saturday</strong> and <strong>8:00am</strong> every <strong>Sunday</strong> outside the Goldstone Small Batch Coffee Company</p>
 			<p class="social-wrap">
 				<a href="http://www.twitter.com/_hovelo" rel="nofollow"  class="social twitter">@_hovelo</a>
 				<a href="http://www.facebook.com/hovelo" rel="nofollow"  class="social facebook">Hovélo on facebook</a>
 				<a href="http://www.strava.com/clubs/hovelo" rel="nofollow" class="social strava">Hovélo on Strava</a>
 			</p>
 		</article>
+
+
 		<article class="wrap">
 			<h2>Who is Hovélo for?</h2>
-			<p>Hovelo is open to everyone but you’ll need to be comfortable riding at an average speed (including climbs...and there are some) of 14 - 16mph. </p>
-			<p>We’ll be doing a couple of different paces for riders looking to get their speed and distances up and for experienced riders looking for a bigger challenge.</p>
-			<p>This isn’t about tearing people’s legs off or suffering - you’ll can find that elsewhere. This is about getting used to riding in a group and having fun. There’ll be chatting, jokes and discussions about cycling etiquette.</p>
+			<p>Hovélo is open to everyone but you'll need to be comfortable riding at an average speed (including climbs...and there are some) of 14 - 16mph. </p>
+			<p>We'll be doing a couple of different paces for riders looking to get their speed and distances up and for experienced riders looking for a bigger challenge.</p>
+			<p>This isn't about tearing people's legs off or suffering - you can find that elsewhere. This is about getting used to riding in a group and having fun. There'll be chatting, jokes and discussions about cycling etiquette.</p>
 			<p>Shaved legs entirely optional for both sexes.</p>
 		</article>
 		<article class="wrap">
 			<h2>Hovélo rides</h2>
-			<p>There are 2 types of ride from Hovelo which generally alternate.</p>
+			<p>There are 2 types of ride from Hovélo which generally alternate.</p>
 			<h3>Standard</h3>
 			<p>Between 20 and 40 miles - at a slightly slower pace, this is for everyone - especially those wanting to increase their regular distance and introduce people to the club. The pace of these rides along the flat will generally be between 15-18 mph.</p>
-			<p>Think focussed bimble through some lovely scenery.</p>
+			<p>Think focused bimble through some lovely scenery.</p>
 			<h3>Long</h3>
-			<p>More experienced riders can stretch their legs and their skills on these rides. They’ll be anywhere between 45 - 70 miles (but generally between 50 and 60). The pace will be  faster than the standard rides but the chatting, jokes and banter won’t differ much.</p>
+			<p>More experienced riders can stretch their legs and their skills on these rides. They'll be anywhere between 45 - 70 miles (but generally between 50 and 60). The pace will be  faster than the standard rides but the chatting, jokes and banter won't differ much.</p>
 			<p>Great for riders training for sportives and upping their fitness levels.</p>
 			<p>Ride type and length will be detailed in the email newsletter or on our social media pages</p>
 		</article>
@@ -95,6 +95,7 @@
 				<li>Spare inner tube with pump and tyre levers</li>
 				<li>Water or sports drink</li>
 				<li>Food (such as energy bars)</li>
+				<li>A good sense of humour</li>
 			</ul>
 			<p>Food and 2 drinks bottles are very highly recommended on the <b>Long</b> rides.</p>
 		</article>
@@ -102,8 +103,8 @@
 			<h2>How do I Join?</h2>
 			<p>You simply turn up at one of the weekend rides.</p>
 			<p>Saturday morning is generally a Standard ride starting at <strong>7:30am</strong> outside the <a href="http://smallbatchcoffee.co.uk/locations/roastery-goldstone-villas-hove/" rel="nofollow">Goldstone Villas Small Batch Coffee Company</a></p>
-			<p>Sunday morning rides vary, but always start outside the <a href="http://hoveparkcafe.com/" rel="nofollow">Hove Park Café</a> at <strong>8am</strong>. (From 3rd August, Sunday rides will leave from Small Batch)</p>
-			<p>Sign up to the newsletter to be kept up to date with that rides are coming up and an information about the club or follow us on <a href="http://www.twitter.com/_hovelo" rel="nofollow">twitter</a> and <a href="http://www.facebook.com/hovelo" rel="nofollow">facebook</a>.</p>
+			<p>Sunday morning rides also start at Small Batch but have a start time of <strong>8am</strong>. Ride lengths vary, but will generally be a little longer.</p>
+			<p>Sign up to the newsletter to be kept up to date with that rides are coming up and an information about the club. You can also follow us on <a href="http://www.twitter.com/_hovelo" rel="nofollow">twitter</a> and <a href="http://www.facebook.com/hovelo" rel="nofollow">facebook</a>.</p>
 			<p class="social-wrap">
 				<a href="http://www.twitter.com/_hovelo" rel="nofollow"  class="social twitter">@_hovelo</a>
 				<a href="http://www.facebook.com/hovelo" rel="nofollow"  class="social facebook">Hovélo on facebook</a>
