@@ -32,12 +32,12 @@ $action-secondary: #176688;
 $plain: #2E3C42; // Dark blue*/
 
 html {
-	border-top: 15px solid #31A88C;
+	border-top: 25px solid #31A88C;
 }
 body {
 	padding: 0;
 	margin: 0;
-	border-top: 10px solid #DB2A44;
+	border-top: 15px solid #DB2A44;
 	font-family: 'Merriweather Sans';
 	font-size: 16px;
 	line-height: 1.5;
@@ -54,8 +54,8 @@ h1, h2 {
 	text-align: center;
 }
 h1 {
-	font-size: 100px;
-	text-align: center;
+	font-size: 60px;
+	text-align: left;
 	line-height: 1;
 }
 h2 {
@@ -93,12 +93,46 @@ label {
 	font-weight: 700;
 }
 
+nav {
+	padding: 10px 0;
+	border: 1px solid #eee;
+	margin-bottom: 15px;
+	text-align: center;
+}
+nav ul,
+nav li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	font-size: 0.1px;
+}
+nav a {
+	text-decoration: none;
+	padding: 0 10px;
+	display: inline-block;
+	font-size: 16px;
+}
+nav li + li a {
+	border-left: 1px solid #eee;
+}
+
+.layout-two {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+}
+.layout-two .column {
+	display: table-cell;
+	width: 2%;
+}
+
 .wrap {
 	max-width: 700px;
 	margin: 0 auto;
 	text-align: left;
 	padding: 0 20px;
 	background: #fff;
+	position: relative;
 }
 .wrap + .wrap {
 	border-top: 1px dotted #ddd;
@@ -111,11 +145,15 @@ label {
 	margin-top: 0;
 }
 
+.wrap.plain {
+	border-top: 0;
+	padding-top: 0;
+	margin-top: 0;
+}
+
 .hero {
 	font-size: 22px;
 	text-align: center;
-	background: url('/assets/images/background.png') top center no-repeat;
-	background-size: 100% auto;
 }
 .hero h1 {
 	padding-top: 24.28%;
@@ -142,19 +180,23 @@ label {
 	-moz-transition: opacity 0.2s ease;
 	-o-transition: opacity 0.2s ease;
 	transition: opacity 0.2s ease;
-	display: inline-block;
-	padding: 10px 15px 10px 60px;
+	height: 24px;
+	width: 30px;
+	padding: 10px;
+	float: right;
 	margin: 0 5px 15px;
 	line-height: 1;
 	color: #fff;
 	font-size: 16px;
 	text-decoration: none;
-	background: #55acee 15px center no-repeat url('../images/twitter.png');
+	background: #55acee center no-repeat url('../images/twitter.png');
+}
+.social span {
+	display: none;
 }
 .strava {
 	background-color: #FC4C02;
 	background-image: url('../images/strava.png');
-	padding-left: 43px;
 }
 .facebook {
 	background-color: #3B5998;
@@ -200,6 +242,17 @@ label {
 	background: #666;
 }
 
+.link-top {
+	background: #fff;
+	padding: 5px 15px 0;
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
+	text-decoration: none;
+	color: #31A88C;
+	float: right;
+	margin-top: -75px;
+}
+
 .list {
 	margin: 0;
 	padding: 0;
@@ -217,6 +270,11 @@ label {
 	color: #176688;
 	font-size: 16px;
 	padding-left: 10px;
+}
+
+.map {
+	height: 300px;
+	margin-bottom: 15px;
 }
 
 .msg {
