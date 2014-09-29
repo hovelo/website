@@ -58,7 +58,7 @@
 	</head>
 	<body>
 		<div class="wrap">
-			<a class="link-top" href="http://members.hovelo.co.uk">Members Area</a>
+			<a class="link-top" rel="nofollow" href="http://members.hovelo.co.uk">Members Area</a>
 		</div>
 		<article class="wrap plain layout-two">
 			<div class="column"><h1>Hovélo</h1></div>
@@ -96,11 +96,18 @@
 		}
 		google.maps.event.addDomListener(window, 'load', initialize);
 		</script>
-
+		<article class="wrap">
+			<h2>How do I Join?</h2>
+			<p><b>You simply turn up at one of the weekend rides!</b></p>
+			<p>If it's your first ride with us, make sure you <a href="http://www.twitter.com/_hovelo" rel="nofollow">tweet</a>, <a href="http://www.facebook.com/hovelo" rel="nofollow">facebook</a> or <a href="mailto:hello@hovelo.co.uk">email us</a> - that way we can make sure someone is there to welcome you and show you the ropes! You can always checkout the <a rel="nofollow" href="http://members.hovelo.co.uk">members area</a> to see what's going on</p>
+			<p>Saturday morning rides start at <strong>7:30am</strong> outside the <a href="http://smallbatchcoffee.co.uk/locations/roastery-goldstone-villas-hove/" rel="nofollow">Goldstone Villas Small Batch Coffee Company</a></p>
+			<p>Sunday morning rides also start at Small Batch but have a start time of <strong>8am</strong>.</p>
+		</article>
 		<article class="wrap">
 			<h2>What is Hovélo?</h2>
 			<p>Hovélo is a friendly and informal group of road cyclists. The age and ability varies massively and we're ultimately about enjoying a beautiful weekend ride.</p>
 			<p>Hovélo is open to everyone but you'll need to be comfortable riding at an average speed (including climbs...and there are some) of 14 - 16mph (22 - 25 kmph). </p>
+			<p>Rides aren't led like a traditional cycling club, but decided on the day by who turns up and how they're feeling.</p>
 			<p>We'll be doing a couple of different paces for riders looking to get their speed and distances up and for experienced riders looking for a bigger challenge.</p>
 			<p>This isn't about tearing people's legs off or suffering - you can find that elsewhere. This is about getting used to riding in a group and having fun. There'll be chatting, jokes and discussions about cycling etiquette.</p>
 			<p>Shaved legs entirely optional for both sexes.</p>
@@ -108,12 +115,7 @@
 			<h3>What should I bring?</h3>
 			<p>Although there will be people to help, you should be prepared for any eventuality. Make sure you have a <b>pump</b> and <b>spare inner tube</b> with you to fix that puncture, and plenty of <b>water</b> and <b>food</b> (such as energy bars) to keep you going.</p> Most importantly, bring along a <b>good sense of humour</b>!
 		</article>
-		<article class="wrap">
-			<h2>How do I Join?</h2>
-			<p>You simply turn up at one of the weekend rides!</p>
-			<p>Saturday morning rides start at <strong>7:30am</strong> outside the <a href="http://smallbatchcoffee.co.uk/locations/roastery-goldstone-villas-hove/" rel="nofollow">Goldstone Villas Small Batch Coffee Company</a></p>
-			<p>Sunday morning rides also start at Small Batch but have a start time of <strong>8am</strong>.</p>
-		</article>
+
 		<article class="wrap featured">
 			<form action="signup-process.php" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
 				<label>To sign up to the mailing list - please enter your email address:</label>
