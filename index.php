@@ -115,15 +115,6 @@
 			<h3>What should I bring?</h3>
 			<p>Although there will be people to help, you should be prepared for any eventuality. Make sure you have a <b>pump</b> and <b>spare inner tube</b> with you to fix that puncture, and plenty of <b>water</b> and <b>food</b> (such as energy bars) to keep you going.</p> Most importantly, bring along a <b>good sense of humour</b>!
 		</article>
-
-		<article class="wrap featured">
-			<form action="signup-process.php" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
-				<label>To sign up to the mailing list - please enter your email address:</label>
-				<input type="email" value="" name="email" class="required email" id="mce-EMAIL">
-				<div class="error msg js-error"></div>
-				<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-			</form>
-		</article>
 		<article class="wrap">
 			<h2>Why should I join?</h2>
 			<ul>
@@ -135,6 +126,23 @@
 				<li>You get to meet local cyclists</li>
 				<li>You get exclusive discounts at <a href="http://www.brightonbikemonkey.co.uk/" rel="nofollow">Brighton Bike Monkey</a>, <b>Small Batch Coffee Company</b>, <b>Prestige Cycles</b> and more!</li>
 			</ul>
+		</article>
+		<article class="wrap featured">
+			<form action="signup-process.php" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
+				<label>To sign up to the mailing list - please enter your email address:</label>
+				<input type="email" value="" name="email" class="required email" id="mce-EMAIL">
+				<div class="error msg js-error"></div>
+				<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+			</form>
+		</article>
+		<article class="wrap">
+			<h2>With thanks to...</h2>
+			<p class="sponsors">
+				<a href="http://www.prestige-cycles.co.uk" rel="nofollow"><img src="assets/images/sponsors/prestige_logo.png" alt="Prestige Cycles"></a>
+			</p>
+			<!-- <p class="sponsors">
+				<a href=""><img src="assets/images/sponsors/prestige_logo.png" alt="Prestige Cycles"></a>
+			</p> -->
 		</article>
 
 		<script type="text/javascript" src="assets/js/scripts.js"></script>

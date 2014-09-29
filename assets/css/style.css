@@ -292,6 +292,10 @@ nav li + li a {
 	display: none;
 }
 
+.sponsors {
+	text-align: center;
+}
+
 @media (max-width: 500px) {
 	h1 {
 		font-size: 80px;
