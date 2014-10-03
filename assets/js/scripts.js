@@ -44,4 +44,20 @@ $('form').on('submit', function(e){
 			}
 		}
 	});
-})
+});
+function initialize() {
+	var mapOptions = {
+		center: new google.maps.LatLng(50.833877, -0.171479),
+		zoom: 14,
+		scrollwheel: false,
+		draggable: false
+	};
+	var map = new google.maps.Map(document.getElementById("js-map"), mapOptions);
+	// To add the marker to the map, use the 'map' property
+	var marker = new google.maps.Marker({
+		position: mapOptions.center,
+		map: map,
+		title:"Small Batch"
+	});
+}
+google.maps.event.addDomListener(window, 'load', initialize);

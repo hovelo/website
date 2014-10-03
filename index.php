@@ -77,25 +77,7 @@
 		</article>
 
 		<div class="map" id="js-map"></div>
-		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-		<script type="text/javascript">
-		function initialize() {
-			var mapOptions = {
-				center: new google.maps.LatLng(50.833877, -0.171479),
-				zoom: 14,
-				scrollwheel: false,
-				draggable: false
-			};
-			var map = new google.maps.Map(document.getElementById("js-map"), mapOptions);
-			// To add the marker to the map, use the 'map' property
-			var marker = new google.maps.Marker({
-				position: mapOptions.center,
-				map: map,
-				title:"Small Batch"
-			});
-		}
-		google.maps.event.addDomListener(window, 'load', initialize);
-		</script>
+
 		<article class="wrap">
 			<h2>How do I Join?</h2>
 			<p><b>You simply turn up at one of the weekend rides!</b></p>
@@ -124,7 +106,7 @@
 				<li>You get to explore Sussex and find new routes</li>
 				<li>You get to learn bike skills (including how to fix punctures quickly!)</li>
 				<li>You get to meet local cyclists</li>
-				<li>You get exclusive discounts at <a href="http://www.brightonbikemonkey.co.uk/" rel="nofollow">Brighton Bike Monkey</a>, <b>Small Batch Coffee Company</b>, <b>Prestige Cycles</b> and more!</li>
+				<li>You get exclusive discounts at <b>Small Batch Coffee Company</b>, <b>Prestige Cycles</b> and more!</li>
 			</ul>
 		</article>
 		<article class="wrap featured">
@@ -144,7 +126,7 @@
 				<a href=""><img src="assets/images/sponsors/prestige_logo.png" alt="Prestige Cycles"></a>
 			</p> -->
 		</article>
-
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 		<script type="text/javascript" src="assets/js/scripts.js"></script>
 	</body>
 </html>
