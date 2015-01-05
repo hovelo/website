@@ -295,6 +295,17 @@ nav li + li a {
 .sponsors {
 	text-align: center;
 }
+.sponsors a {
+	display: inline-block;
+	padding: 0 15px;
+	opacity: 1;
+	-webkit-transition: opacity ease 0.3s;
+	-o-transition: opacity ease 0.3s;
+	transition: opacity ease 0.3s;
+}
+.sponsors a:hover {
+	opacity: 0.7;
+}
 
 @media (max-width: 500px) {
 	h1 {

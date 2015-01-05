@@ -120,7 +120,8 @@
 		<article class="wrap">
 			<h2>With thanks to...</h2>
 			<p class="sponsors">
-				<a href="http://www.prestige-cycles.co.uk" rel="nofollow"><img src="assets/images/sponsors/prestige_logo.png" alt="Prestige Cycles"></a>
+				<a href="http://www.prestige-cycles.co.uk" rel="nofollow"><img src="assets/images/sponsors/prestige.png" alt="Prestige Cycles"></a>
+				<a href="http://smallbatchcoffee.co.uk/" rel="nofollow"><img src="assets/images/sponsors/small-batch.png" alt="Small Batch Coffee Company"></a>
 			</p>
 			<!-- <p class="sponsors">
 				<a href=""><img src="assets/images/sponsors/prestige_logo.png" alt="Prestige Cycles"></a>
