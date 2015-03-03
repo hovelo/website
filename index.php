@@ -109,7 +109,7 @@
 				<li>You get exclusive discounts at <b>Small Batch Coffee Company</b>, <b>Prestige Cycles</b> and more!</li>
 			</ul>
 		</article>
-		<article class="wrap featured">
+		<article class="wrap featured" id="signup">
 			<form action="signup-process.php" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
 				<label>To sign up to the mailing list - please enter your email address:</label>
 				<input type="email" value="" name="email" class="required email" id="mce-EMAIL">
