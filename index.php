@@ -56,15 +56,12 @@
 		</script>
 	</head>
 	<body>
-		<div class="wrap">
-			<a class="link-top" rel="nofollow" href="http://members.hovelo.co.uk">Members Area</a>
-		</div>
 		<article class="wrap plain layout-two">
 			<div class="column"><h1>Hovélo</h1></div>
 			<div class="column">
 				<p class="social-wrap">
 					<a href="http://www.twitter.com/_hovelo" rel="nofollow"  class="social twitter"><span>@_hovelo</span></a>
-					<a href="https://www.facebook.com/groups/433256093495616/" rel="nofollow"  class="social facebook"><span>Hovélo on facebook</span></a>
+					<a href="https://www.facebook.com/groups/hovelo" rel="nofollow"  class="social facebook"><span>Hovélo on facebook</span></a>
 					<a href="http://www.strava.com/clubs/hovelo" rel="nofollow" class="social strava"><span>Hovélo on Strava</span></a>
 				</p>
 			</div>
@@ -72,7 +69,7 @@
 
 		<article class="wrap plain hero">
 			<p class="meta">We're a friendly group of riders with one dedicated goal - to have&nbsp;fun.</p>
-			<p>If you’d like to ride with us, we’d love to see you for an <strong>8am</strong> start every <strong>Sunday</strong> outside the Goldstone Small Batch Coffee Company</p>
+			<p>If you’d like to ride with us, we’d love to see you for an <strong>8am</strong> start every <strong>Sunday</strong> outside the Goldstone Small Batch&nbsp;Coffee&nbsp;Company</p>
 		</article>
 
 		<div class="map" id="js-map"></div>
@@ -80,7 +77,7 @@
 		<article class="wrap">
 			<h2>How do I Join?</h2>
 			<p><b>You simply turn up at <strong>8am</strong> outside outside the <a href="http://smallbatchcoffee.co.uk/locations/roastery-goldstone-villas-hove/" rel="nofollow">Goldstone Villas Small Batch Coffee Company</a> café with your bike</b></p>
-			<p>If it's your first ride with us, make sure you <a href="http://www.twitter.com/_hovelo" rel="nofollow">tweet</a>, <a href="https://www.facebook.com/groups/433256093495616" rel="nofollow">facebook</a> or <a href="mailto:hello@hovelo.co.uk">email us</a> - that way we can make sure someone is there to welcome you and show you the ropes! You can always checkout the <a rel="nofollow" href="https://www.facebook.com/groups/433256093495616/">Facebook Group</a> to see what's going on</p>
+			<p>If it's your first ride with us, make sure you <a href="http://www.twitter.com/_hovelo" rel="nofollow">tweet</a>, <a href="https://www.facebook.com/groups/hovelo" rel="nofollow">facebook</a> or <a href="mailto:hello@hovelo.co.uk">email us</a> - that way we can make sure someone is there to welcome you and show you the ropes! You can always checkout the <a rel="nofollow" href="https://www.facebook.com/groups/hovelo">Facebook Group</a> to see what's going on</p>
 		</article>
 		<article class="wrap">
 			<h2>What is Hovélo?</h2>
