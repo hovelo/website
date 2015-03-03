@@ -1,16 +1,15 @@
-<?php $data = json_decode(file_get_contents(dirname(__FILE__) . '/data/data.json'));?>
 <!doctype html>
 <html class="no-js" itemscope lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Hovélo - Hove-based cycling club</title>
-		<meta name="description" content="Hovélo is an informal Hove-based road cycling club with weekly weekend ride-outs starting and finishing in Hove">
+		<meta name="description" content="Hovélo is an informal Hove-based road cycling club with weekly Sunday ride-outs starting and finishing in Hove">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- Schema.org markup for Google+ -->
 		<meta itemprop="name" content="Hovélo - Hove-based cycling club">
-		<meta itemprop="description" content="Hovélo is an informal Hove-based road cycling club with weekly weekend ride-outs starting and finishing in Hove">
+		<meta itemprop="description" content="Hovélo is an informal Hove-based road cycling club with weekly Sunday ride-outs starting and finishing in Hove">
 		<meta itemprop="image" content="http://www.hovelo.co.uk/assets/images/logo.png">
 
 		<!-- Twitter Card data -->
@@ -21,7 +20,7 @@
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="http://www.hovelo.com/" />
 		<meta property="og:image" content=" http://www.hovelo.co.uk/assets/images/logo.png" />
-		<meta property="og:description" content="Hovélo is an informal Hove-based road cycling club with weekly weekend ride-outs starting and finishing in Hove" />
+		<meta property="og:description" content="Hovélo is an informal Hove-based road cycling club with weekly Sunday ride-outs starting and finishing in Hove" />
 		<meta property="og:site_name" content="Hovélo" />
 
 		<link rel="shortcut icon" href="/assets/images/icons/favicon.ico">
@@ -65,25 +64,23 @@
 			<div class="column">
 				<p class="social-wrap">
 					<a href="http://www.twitter.com/_hovelo" rel="nofollow"  class="social twitter"><span>@_hovelo</span></a>
-					<a href="http://www.facebook.com/hovelo" rel="nofollow"  class="social facebook"><span>Hovélo on facebook</span></a>
+					<a href="https://www.facebook.com/groups/433256093495616/" rel="nofollow"  class="social facebook"><span>Hovélo on facebook</span></a>
 					<a href="http://www.strava.com/clubs/hovelo" rel="nofollow" class="social strava"><span>Hovélo on Strava</span></a>
 				</p>
 			</div>
 		</article>
 
 		<article class="wrap plain hero">
-			<p class="meta">We're a friendly group of riders with one dedicated goal - to have&nbsp;fun. If you'd like to ride with us, we'd love to see you at the weekend.</p>
-			<p><strong>7:30am</strong> every <strong>Saturday</strong> and <strong>8:00am</strong> every <strong>Sunday</strong> outside the Goldstone Small Batch Coffee Company</p>
+			<p class="meta">We're a friendly group of riders with one dedicated goal - to have&nbsp;fun.</p>
+			<p>If you’d like to ride with us, we’d love to see you for an <strong>8am</strong> start every <strong>Sunday</strong> outside the Goldstone Small Batch Coffee Company</p>
 		</article>
 
 		<div class="map" id="js-map"></div>
 
 		<article class="wrap">
 			<h2>How do I Join?</h2>
-			<p><b>You simply turn up at one of the weekend rides!</b></p>
-			<p>If it's your first ride with us, make sure you <a href="http://www.twitter.com/_hovelo" rel="nofollow">tweet</a>, <a href="http://www.facebook.com/hovelo" rel="nofollow">facebook</a> or <a href="mailto:hello@hovelo.co.uk">email us</a> - that way we can make sure someone is there to welcome you and show you the ropes! You can always checkout the <a rel="nofollow" href="http://members.hovelo.co.uk">members area</a> to see what's going on</p>
-			<p>Saturday morning rides start at <strong>7:30am</strong> outside the <a href="http://smallbatchcoffee.co.uk/locations/roastery-goldstone-villas-hove/" rel="nofollow">Goldstone Villas Small Batch Coffee Company</a></p>
-			<p>Sunday morning rides also start at Small Batch but have a start time of <strong>8am</strong>.</p>
+			<p><b>You simply turn up at <strong>8am</strong> outside outside the <a href="http://smallbatchcoffee.co.uk/locations/roastery-goldstone-villas-hove/" rel="nofollow">Goldstone Villas Small Batch Coffee Company</a> café with your bike</b></p>
+			<p>If it's your first ride with us, make sure you <a href="http://www.twitter.com/_hovelo" rel="nofollow">tweet</a>, <a href="https://www.facebook.com/groups/433256093495616" rel="nofollow">facebook</a> or <a href="mailto:hello@hovelo.co.uk">email us</a> - that way we can make sure someone is there to welcome you and show you the ropes! You can always checkout the <a rel="nofollow" href="https://www.facebook.com/groups/433256093495616/">Facebook Group</a> to see what's going on</p>
 		</article>
 		<article class="wrap">
 			<h2>What is Hovélo?</h2>
@@ -106,7 +103,7 @@
 				<li>You get to explore Sussex and find new routes</li>
 				<li>You get to learn bike skills (including how to fix punctures quickly!)</li>
 				<li>You get to meet local cyclists</li>
-				<li>You get exclusive discounts at <b>Small Batch Coffee Company</b>, <b>Prestige Cycles</b> and more!</li>
+				<li>You get exclusive discounts at <b>Small Batch Coffee Company</b>, <b>Prestige Cycles</b>, <b>Totally Fuelled</b>, <b>SeeSense Lights</b> and more!</li>
 			</ul>
 		</article>
 		<article class="wrap featured" id="signup">
