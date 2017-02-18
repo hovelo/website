@@ -18,8 +18,8 @@
 		<!-- Open Graph data -->
 		<meta property="og:title" content="Hovélo - Hove-based cycling club" />
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content="http://www.hovelo.com/" />
-		<meta property="og:image" content=" http://www.hovelo.co.uk/assets/images/logo.png" />
+		<meta property="og:url" content="https://www.hovelo.com/" />
+		<meta property="og:image" content=" https://www.hovelo.co.uk/assets/images/logo.png" />
 		<meta property="og:description" content="Hovélo is an informal Hove-based road cycling club with weekly Sunday ride-outs starting and finishing in Hove" />
 		<meta property="og:site_name" content="Hovélo" />
 
@@ -41,7 +41,7 @@
 		<meta name="msapplication-TileImage" content="/assets/images/icons/mstile-144x144.png">
 		<meta name="msapplication-config" content="/assets/images/icons/browserconfig.xml">
 
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 
 		<script async="" src="//www.google-analytics.com/analytics.js"></script><script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -60,9 +60,9 @@
 			<div class="column"><h1>Hovélo</h1></div>
 			<div class="column">
 				<p class="social-wrap">
-					<a href="http://www.twitter.com/_hovelo" rel="nofollow"  class="social twitter"><span>@_hovelo</span></a>
+					<a href="https://www.twitter.com/_hovelo" rel="nofollow"  class="social twitter"><span>@_hovelo</span></a>
 					<a href="https://www.facebook.com/groups/hovelo" rel="nofollow"  class="social facebook"><span>Hovélo on facebook</span></a>
-					<a href="http://www.strava.com/clubs/hovelo" rel="nofollow" class="social strava"><span>Hovélo on Strava</span></a>
+					<a href="https://www.strava.com/clubs/hovelo" rel="nofollow" class="social strava"><span>Hovélo on Strava</span></a>
 				</p>
 			</div>
 		</article>
@@ -77,7 +77,7 @@
 		<article class="wrap">
 			<h2>How do I Join?</h2>
 			<p><b>You simply turn up at <strong>8am</strong> outside outside the <a href="http://smallbatchcoffee.co.uk/locations/roastery-goldstone-villas-hove/" rel="nofollow">Goldstone Villas Small Batch Coffee Company</a> café with your bike</b></p>
-			<p>If it's your first ride with us, make sure you <a href="http://www.twitter.com/_hovelo" rel="nofollow">tweet</a>, <a href="https://www.facebook.com/groups/hovelo" rel="nofollow">facebook</a> or <a href="mailto:hello@hovelo.co.uk">email us</a> - that way we can make sure someone is there to welcome you and show you the ropes! You can always checkout the <a rel="nofollow" href="https://www.facebook.com/groups/hovelo">Facebook Group</a> to see what's going on</p>
+			<p>If it's your first ride with us, make sure you <a href="https://www.twitter.com/_hovelo" rel="nofollow">tweet</a>, <a href="https://www.facebook.com/groups/hovelo" rel="nofollow">facebook</a> or <a href="mailto:hello@hovelo.co.uk">email us</a> - that way we can make sure someone is there to welcome you and show you the ropes! You can always checkout the <a rel="nofollow" href="https://www.facebook.com/groups/hovelo">Facebook Group</a> to see what's going on</p>
 		</article>
 		<article class="wrap">
 			<h2>What is Hovélo?</h2>
@@ -114,14 +114,10 @@
 		<article class="wrap">
 			<h2>With thanks to...</h2>
 			<p class="sponsors">
-				<a href="http://www.prestige-cycles.co.uk" rel="nofollow"><img src="assets/images/sponsors/prestige.png" alt="Prestige Cycles"></a>
 				<a href="http://smallbatchcoffee.co.uk/" rel="nofollow"><img src="assets/images/sponsors/small-batch.png" alt="Small Batch Coffee Company"></a>
 			</p>
-			<!-- <p class="sponsors">
-				<a href=""><img src="assets/images/sponsors/prestige_logo.png" alt="Prestige Cycles"></a>
-			</p> -->
 		</article>
 		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-		<script type="text/javascript" src="assets/js/scripts.js"></script>
+		<script type="text/javascript" src="/assets/js/scripts.js"></script>
 	</body>
 </html>
