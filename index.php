@@ -60,7 +60,7 @@
 			<div class="column"><h1>Hovélo</h1></div>
 			<div class="column">
 				<p class="social-wrap">
-					<a href="https://www.twitter.com/_hovelo" rel="nofollow"  class="social twitter"><span>@_hovelo</span></a>
+					<!-- <a href="https://www.twitter.com/_hovelo" rel="nofollow"  class="social twitter"><span>@_hovelo</span></a> -->
 					<a href="https://www.facebook.com/groups/hovelo" rel="nofollow"  class="social facebook"><span>Hovélo on facebook</span></a>
 					<a href="https://www.strava.com/clubs/hovelo" rel="nofollow" class="social strava"><span>Hovélo on Strava</span></a>
 				</p>
@@ -73,11 +73,12 @@
 		</article>
 
 		<div class="map" id="js-map"></div>
+		<p class="map-note"><a href="https://drive.google.com/open?id=1yVJAo4B91ynATHl4L3WRZS81zR0&usp=sharing">View a sample of Hovélo rides on Google maps</a></p>
 
 		<article class="wrap">
 			<h2>How do I Join?</h2>
 			<p><b>You simply turn up at <strong>8am</strong> outside outside the <a href="http://smallbatchcoffee.co.uk/locations/roastery-goldstone-villas-hove/" rel="nofollow">Goldstone Villas Small Batch Coffee Company</a> café with your bike</b></p>
-			<p>If it's your first ride with us, make sure you <a href="https://www.twitter.com/_hovelo" rel="nofollow">tweet</a>, <a href="https://www.facebook.com/groups/hovelo" rel="nofollow">facebook</a> or <a href="mailto:hello@hovelo.co.uk">email us</a> - that way we can make sure someone is there to welcome you and show you the ropes! You can always checkout the <a rel="nofollow" href="https://www.facebook.com/groups/hovelo">Facebook Group</a> to see what's going on</p>
+			<p>If it's your first ride with us, make sure you <!-- <a href="https://www.twitter.com/_hovelo" rel="nofollow">tweet</a>, --><a href="https://www.facebook.com/groups/hovelo" rel="nofollow">facebook</a> or <a href="mailto:hello@hovelo.co.uk">email us</a> - that way we can make sure someone is there to welcome you and show you the ropes! You can always checkout the <a rel="nofollow" href="https://www.facebook.com/groups/hovelo">Facebook Group</a> to see what's going on</p>
 		</article>
 		<article class="wrap">
 			<h2>What is Hovélo?</h2>
@@ -100,7 +101,7 @@
 				<li>You get to explore Sussex and find new routes</li>
 				<li>You get to learn bike skills (including how to fix punctures quickly!)</li>
 				<li>You get to meet local cyclists</li>
-				<li>You get exclusive discounts at <b>Small Batch Coffee Company</b>, <b>Prestige Cycles</b>, <b>Totally Fuelled</b>, <b>SeeSense Lights</b> and more!</li>
+				<li>You get discounted <b>Small Batch Coffee</b></li>
 			</ul>
 		</article>
 		<article class="wrap featured" id="signup">
