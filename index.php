@@ -14,7 +14,6 @@
 
 	<!-- Twitter Card data -->
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:site" content="@_hovelo">
 	<!-- Open Graph data -->
 	<meta property="og:title" content="Hovélo - Hove-based cycling club" />
 	<meta property="og:type" content="website" />
@@ -60,7 +59,6 @@
 		<div class="column"><h1>Hovélo</h1></div>
 		<div class="column">
 			<p class="social-wrap">
-				<a href="https://www.twitter.com/_hovelo" rel="nofollow"  class="social twitter"><span>@_hovelo</span></a>
 				<a href="https://www.facebook.com/groups/hovelo" rel="nofollow"  class="social facebook"><span>Hovélo on facebook</span></a>
 				<a href="https://www.strava.com/clubs/hovelo" rel="nofollow" class="social strava"><span>Hovélo on Strava</span></a>
 			</p>
@@ -84,11 +82,13 @@
 		<p>This isn't about tearing people's legs off or suffering - you can find that elsewhere. This is about getting used to riding in a group and having fun. There'll be chatting, jokes and discussions about cycling etiquette.</p>
 		<p>Shaved legs entirely optional for both sexes.</p>
 	</article>
+	
 	<article class="wrap">
 		<h2>How do I Join?</h2>
 		<p><b>You simply turn up at <strong>8am</strong> outside outside the <a href="http://smallbatchcoffee.co.uk/locations/roastery-goldstone-villas-hove/" rel="nofollow">Goldstone Villas Small Batch Coffee Company</a> café with your bike</b>. We will often have a pre-ride coffee (discount available to Hovélo riders) and a chat before heading out.</p>
-		<p>If it's your first ride with us, make sure you <a href="https://www.twitter.com/_hovelo" rel="nofollow">tweet</a>, <a href="https://www.facebook.com/groups/hovelo" rel="nofollow">facebook</a> or <a href="mailto:hello@hovelo.co.uk">email us</a> - that way we can make sure someone is there to welcome you and show you the ropes! You can always checkout the <a rel="nofollow" href="https://www.facebook.com/groups/hovelo">Facebook Group</a> to see what's going on</p>
+		<p>If it's your first ride with us, make sure you <a href="https://www.facebook.com/groups/hovelo" rel="nofollow">facebook</a> or <a href="mailto:hello@hovelo.co.uk">email us</a> - that way we can make sure someone is there to welcome you and show you the ropes! You can always checkout the <a rel="nofollow" href="https://www.facebook.com/groups/hovelo">Facebook Group</a> to see what's going on</p>
 	</article>
+
 	<article class="wrap">
 		<h2>What should I bring?</h2>
 		<p>Although there will be people to help, you should be prepared for any eventuality. Make sure you have a <b>pump</b> and <b>spare inner tube</b> with you to fix that puncture, and plenty of <b>water</b> and <b>food</b> (such as energy bars) to keep you going.</p> Most importantly, bring along a <b>good sense of humour</b>!
