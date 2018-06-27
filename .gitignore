@@ -3,3 +3,6 @@ error_log
 data.json
 config.php
 docs/
+
+.DS_Store
+._*
