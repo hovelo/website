@@ -3,7 +3,7 @@
     "remote": "origin",
     "path": "./",
     "version": "2.0.1",
-    "cloudflare_zone": "879068c3787d2a63f421b18f1d30e1b8",
+    "cloudflare_zone": "3f112d486e9f5a5b9bb9dc01cb55e267",
     "ignore": [
         ".git",
         ".DS_Store",
