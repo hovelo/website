@@ -204,6 +204,8 @@ nav li + li a {
 	margin-bottom: 0;
 	text-align: center;
 	overflow: hidden;
+	width: auto;
+	float: right;
 }
 @media screen and (min-width: 25em) {
 	.social-wrap {
@@ -214,40 +216,30 @@ nav li + li a {
 	border-radius: 0.2rem;
 	-webkit-transition: opacity 0.2s ease;
 	transition: opacity 0.2s ease;
-	height: 2.5rem;
-	width: 3.5rem;
 	padding: 0.75rem;
-	display: inline-block;
 	margin: 0 0.3rem 1rem;
 	line-height: 1;
 	color: #fff;
 	text-decoration: none;
-	background: #55acee center no-repeat url('../images/twitter.png');
-}
-.social span {
-	display: none;
-}
-.strava {
 	background-color: #FC4C02;
-	background-image: url('../images/strava.png');
+	display: flex;
+	align-items: center;
 }
-.facebook {
-	background-color: #3B5998;
-	background-image: url('../images/facebook.png');
-}
-.social:hover {
-	filter: alpha(opacity=80);
-	opacity: 0.8;
-	color: #fff;
+.social::before {
+	content: '';
+	display: inline-block;
+	width: 1.5rem;
+	height: 2rem;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 0.5rem;
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="90" height="126"><g fill="#FFF" fill-rule="nonzero"><path d="M62.4 125.3L35.3 72.1h16.1l11 21.5 10.8-21.5h16.1l-26.9 53.2"/><path d="M36.9 43.2l14.7 29h21.5L36.7.7.7 72.2h21.6z"/></g></svg>');
 }
 
-.email {
-	border-radius: 0.2rem;
-	display: block;
-	width: 70%;
-	margin: 0 auto 1rem;
-	border: 1px solid #aaa;
-	padding: 0.75rem;
+.social:hover {
+	opacity: 0.8;
+	color: #fff;
 }
 
 .button {
