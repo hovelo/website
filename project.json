@@ -2,7 +2,7 @@
     "title": "Hov\u00e9lo",
     "remote": "origin",
     "path": "./",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "cloudflare_zone": "879068c3787d2a63f421b18f1d30e1b8",
     "ignore": [
         ".git",
