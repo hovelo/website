@@ -18,29 +18,22 @@
 	<meta property="og:title" content="Hovélo - Hove-based cycling club" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://www.hovelo.com/" />
-	<meta property="og:image" content=" https://www.hovelo.co.uk/assets/images/logo.png" />
+	<meta property="og:image" content="https://www.hovelo.co.uk/assets/images/logo.png" />
 	<meta property="og:description" content="Hovélo is an informal Hove-based road cycling club with weekly Sunday ride-outs starting and finishing in Hove" />
 	<meta property="og:site_name" content="Hovélo" />
 
-	<link rel="shortcut icon" href="assets/images/icons/favicon.ico">
-	<link rel="apple-touch-icon" sizes="57x57" href="assets/images/icons/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/icons/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/icons/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="assets/images/icons/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="assets/images/icons/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="assets/images/icons/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/images/icons/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="assets/images/icons/apple-touch-icon-152x152.png">
-	<link rel="icon" type="image/png" href="assets/images/icons/favicon-196x196.png" sizes="196x196">
-	<link rel="icon" type="image/png" href="assets/images/icons/favicon-160x160.png" sizes="160x160">
-	<link rel="icon" type="image/png" href="assets/images/icons/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="assets/images/icons/favicon-16x16.png" sizes="16x16">
-	<link rel="icon" type="image/png" href="assets/images/icons/favicon-32x32.png" sizes="32x32">
-	<meta name="msapplication-TileColor" content="#00aba9">
-	<meta name="msapplication-TileImage" content="assets/images/icons/mstile-144x144.png">
-	<meta name="msapplication-config" content="assets/images/icons/browserconfig.xml">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="194x194" href="/assets/images/icons/favicon-194x194.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/assets/images/icons/android-chrome-192x192.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/icons/favicon-16x16.png">
+	<link rel="manifest" href="/assets/images/icons/site.webmanifest">
+	<link rel="mask-icon" href="/assets/images/icons/safari-pinned-tab.svg" color="#30a78b">
+	<link rel="shortcut icon" href="/assets/images/icons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-config" content="/assets/images/icons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
 
-	<link rel="stylesheet" type="text/css" href="assets/libs/leaflet/leaflet.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 	<!-- Matomo -->
@@ -98,7 +91,7 @@
 			<p>We organise rides & meetups via the Stava club. You don't have to have been out with us to join, so sign up, say hello and organise your first ride!</p>
 			<p><a href="https://www.strava.com/clubs/hovelo" class="button">Join the Club</a></p>
 
-			<iframe allowtransparency frameborder="0" height="160" scrolling="no" src="https://www.strava.com/clubs/94708/latest-rides/e828651cc58fee6d0ed999f86750147cf130d2c3?show_rides=false" width="60%"></iframe>
+			<iframe title="Hovélo on Strava" allowtransparency frameborder="0" height="160" scrolling="no" src="https://www.strava.com/clubs/94708/latest-rides/e828651cc58fee6d0ed999f86750147cf130d2c3?show_rides=false" width="60%"></iframe>
 		</div>
 	</article>
 
@@ -115,7 +108,30 @@
 			<a href="http://smallbatchcoffee.co.uk/" rel="nofollow"><img src="assets/images/sponsors/small-batch.png" alt="Small Batch Coffee Company"></a>
 		</p>
 	</article>
+
+	<link rel="stylesheet" type="text/css" href="assets/libs/leaflet/leaflet.css">
 	<script type="text/javascript" src="assets/libs/leaflet/leaflet.js"></script>
-	<script type="text/javascript" src="assets/js/scripts.js"></script>
+
+	<script type="text/javascript">
+	if ('serviceWorker' in navigator) {
+		navigator.serviceWorker.register('service-worker.js');
+	}
+	var osm = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.{ext}', {
+		attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+		subdomains: 'abcd',
+		minZoom: 0,
+		maxZoom: 18,
+		ext: 'png'
+	});
+
+	var map = L.map('js-map')
+		.setView([50.833877, -0.171479], 12)
+		.addLayer(osm);
+
+	L.marker([50.833877, -0.171479])
+		.addTo(map)
+		.bindPopup('<strong>Small Batch</strong>');
+
+	</script>
 </body>
 </html>

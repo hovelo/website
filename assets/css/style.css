@@ -25,11 +25,11 @@
 
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}b,strong,optgroup{font-weight:700}pre,textarea{overflow:auto}button::-moz-focus-inner,input::-moz-focus-inner,legend{border:0;padding:0}
 
-/*$primary: #31A88C; // turquoise
+/*$primary: #30a78b; // turquoise
 $secondary: #DB2A44; // red
-$action: #2AA5DB; // Light blue
+$action: #017db3; // Light blue
 $action-secondary: #176688;
-$plain: #2E3C42; // Dark blue*/
+$plain: #0c2d3c; // Dark blue*/
 
 *,
 *::before,
@@ -40,7 +40,7 @@ $plain: #2E3C42; // Dark blue*/
 }
 
 html {
-	border-top: 2rem solid #31A88C;
+	border-top: 2rem solid #30a78b;
 }
 body {
 	padding: 0;
@@ -50,7 +50,7 @@ body {
 	font-size: 1rem;
 	line-height: 1.5;
 	font-weight: 300;
-	color: #2E3C42;
+	color: #0c2d3c;
 	padding: 1rem 0;
 	background: #fff;
 }
@@ -66,7 +66,7 @@ h2 {
 	font-weight: 400;
 	font-family: 'Pacifico', cursive;
 	margin: 0 0 1.5rem;
-	color: #31A88C;
+	color: #30a78b;
 	text-align: center;
 }
 h1 {
@@ -96,47 +96,13 @@ p {
 }
 
 a {
-	color: #2AA5DB;
+	color: #017db3;
 	text-decoration: underline;
 	-webkit-transition: color 0.2s ease;
 	transition: color 0.2s ease;
 }
 a:hover {
 	color: #176688;
-}
-form {
-	margin-bottom: 1rem;
-	margin: 0 auto;
-	max-width: 38rem;
-}
-label {
-	display: block;
-	text-align: center;
-	margin-bottom: 1rem;
-	font-weight: 700;
-}
-
-nav {
-	padding: 1rem 0;
-	border: thin solid #eee;
-	margin-bottom: 1rem;
-	text-align: center;
-}
-nav ul,
-nav li {
-	display: inline-block;
-	margin: 0;
-	padding: 0;
-	font-size: 0.1px;
-}
-nav a {
-	text-decoration: none;
-	padding: 0 0.75rem;
-	display: inline-block;
-	font-size: 16px;
-}
-nav li + li a {
-	border-left: 1px solid #eee;
 }
 
 @media screen and (min-width: 35em) {
@@ -197,9 +163,7 @@ nav li + li a {
 		font-size: 1.3rem;
 	}
 }
-.hero h1 {
-	padding-top: 24.28%;
-}
+
 .hero .meta {
 	font-size: 1rem;
 	font-weight: bold;
@@ -278,7 +242,7 @@ nav li + li a {
 	font-size: 1.1rem;
 	padding: 1rem 1.5rem;
 	display: inline-block;
-	background: #2AA5DB;
+	background: #017db3;
 	color: #fff;
 	border: 0;
 	text-decoration: none;
@@ -286,40 +250,6 @@ nav li + li a {
 .button:hover {
 	background: #176688;
 	color: #fff;
-}
-
-.button.disabled {
-	background: #666;
-}
-
-.link-top {
-	background: #fff;
-	padding: 5px 1rem 0;
-	font-family: 'Pacifico', cursive;
-	font-size: 1.5rem;
-	text-decoration: none;
-	color: #31A88C;
-	float: right;
-	margin-top: -75px;
-}
-
-.list {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	text-align: center;
-}
-.list a {
-	text-decoration: none;
-}
-.list h3 {
-	font-weight: 400;
-	font-size: 18px;
-}
-.list time {
-	color: #176688;
-	font-size: 16px;
-	padding-left: 0.75rem;
 }
 
 .map {
@@ -344,19 +274,6 @@ nav li + li a {
 	}
 }
 
-.msg {
-	font-size: 14px;
-	color: #fff;
-	background: #DB2A44;
-	border-radius: 0.2rem;
-	padding: 1rem;
-	max-width: 500px;
-	margin: 0 auto 1.5rem;
-}
-.success {
-	background: #31A88C;
-	display: none;
-}
 
 .sponsors {
 	text-align: center;
