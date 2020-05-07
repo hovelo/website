@@ -19,10 +19,10 @@
         },
         "live": {
             "url": "https://www.hovelo.co.uk/",
-            "user": "heli",
+			"user": "heli",
             "host": "helicarrier.mikestreety.co.uk",
             "port": 22,
-            "path": "/var/www/hovelo.co.uk/www.hovelo.co.uk/html",
+            "path": "/var/www/hovelo.co.uk/www.hovelo.co.uk",
             "deploy": {
                 "pre": "",
                 "post": ""
