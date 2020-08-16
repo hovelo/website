@@ -33,8 +33,12 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-config" content="/assets/images/icons/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
+	<link rel="preload" href="/assets/fonts/pacifico-v12-latin-regular.woff2" as="font">
+	<link rel="preload" href="/assets/fonts/pacifico-v12-latin-regular.woff" as="font">
+	<link rel="preconnect" href="https://tile.thunderforest.com">
+	<link rel="dns-prefetch" href="https://tile.thunderforest.com">
 
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 
 	<!-- Matomo -->
 	<script>
@@ -56,18 +60,24 @@
 		<div class="column"><h1>Hovélo</h1></div>
 		<div class="column">
 			<p class="social-wrap">
-				<a href="https://www.strava.com/clubs/hovelo" rel="nofollow" class="social strava"><span>Hovélo on Strava</span></a>
+				<a href="https://slack.hovelo.co.uk/invite" rel="nofollow" class="social slack">
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="70 65 130 140" xml:space="preserve"><style>.st0{fill:#fff}</style><path class="st0" d="M99.4 151.2c0 7.1-5.8 12.9-12.9 12.9s-12.9-5.8-12.9-12.9c0-7.1 5.8-12.9 12.9-12.9h12.9v12.9zM105.9 151.2c0-7.1 5.8-12.9 12.9-12.9s12.9 5.8 12.9 12.9v32.3c0 7.1-5.8 12.9-12.9 12.9s-12.9-5.8-12.9-12.9v-32.3zM118.8 99.4c-7.1 0-12.9-5.8-12.9-12.9s5.8-12.9 12.9-12.9 12.9 5.8 12.9 12.9v12.9h-12.9zM118.8 105.9c7.1 0 12.9 5.8 12.9 12.9s-5.8 12.9-12.9 12.9H86.5c-7.1 0-12.9-5.8-12.9-12.9s5.8-12.9 12.9-12.9h32.3z"/><g><path class="st0" d="M170.6 118.8c0-7.1 5.8-12.9 12.9-12.9 7.1 0 12.9 5.8 12.9 12.9s-5.8 12.9-12.9 12.9h-12.9v-12.9zM164.1 118.8c0 7.1-5.8 12.9-12.9 12.9-7.1 0-12.9-5.8-12.9-12.9V86.5c0-7.1 5.8-12.9 12.9-12.9 7.1 0 12.9 5.8 12.9 12.9v32.3z"/></g><g><path class="st0" d="M151.2 170.6c7.1 0 12.9 5.8 12.9 12.9 0 7.1-5.8 12.9-12.9 12.9-7.1 0-12.9-5.8-12.9-12.9v-12.9h12.9zM151.2 164.1c-7.1 0-12.9-5.8-12.9-12.9 0-7.1 5.8-12.9 12.9-12.9h32.3c7.1 0 12.9 5.8 12.9 12.9 0 7.1-5.8 12.9-12.9 12.9h-32.3z"/></g></svg>
+					<span>Hovélo on Slack</span>
+				</a>
+				<a href="https://www.strava.com/clubs/hovelo" rel="nofollow" class="social strava">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 126"><g fill="#FFF"><path d="M62.4 125.3L35.3 72.1h16.1l11 21.5 10.8-21.5h16.1l-26.9 53.2"/><path d="M36.9 43.2l14.7 29h21.5L36.7.7.7 72.2h21.6z"/></g></svg>
+					<span>Hovélo on Strava</span>
+				</a>
 			</p>
 		</div>
 	</section>
 
 	<section class="wrap plain hero">
-		<h4 class="meta">Hovélo is a group of friendly riders out to explore the sussex countryside and to have&nbsp;fun.</h4>
-		<p>If you’d like to ride with us, we’d love to see you for an <strong>8am</strong> start every <strong>Sunday</strong> outside the Goldstone Road Small Batch&nbsp;Coffee&nbsp;Company</p>
+		<h2 class="meta">Hovélo is a group of friendly riders out to explore the Sussex countryside and to have&nbsp;fun.</h2>
+		<p>If you’d like to ride with us, we’d love to see you for an <strong>8am</strong> start every <strong>Sunday</strong> at the <strong>Hilltop Café</strong> - located at the top of Dyke Road by the roundabout.</p>
 	</section>
 
 	<div class="map" id="js-map"></div>
-	<p class="map-note"><a href="https://drive.google.com/open?id=1yVJAo4B91ynATHl4L3WRZS81zR0&usp=sharing">View a sample of Hovélo rides on Google maps</a></p>
 
 	<section class="wrap">
 		<h2>What is Hovélo?</h2>
@@ -81,15 +91,15 @@
 
 	<section class="wrap">
 		<h2>How do I Join?</h2>
-		<p><b>You simply turn up at <strong>8am</strong> outside outside the <a href="http://smallbatchcoffee.co.uk/locations/roastery-goldstone-villas-hove/" rel="nofollow">Goldstone Villas Small Batch Coffee Company</a> café with your bike</b>. We will often have a pre-ride coffee (discount available to Hovélo riders) and a chat before heading out.</p>
-		<p>If it's your first ride with us, make sure you post a note on our <a href="https://www.strava.com/clubs/hovelo" rel="nofollow">Strava Club</a> or <a href="mailto:hello@hovelo.co.uk">email us</a> - that way we can make sure someone is there to welcome you and show you the ropes! You can always checkout the <a href="https://www.strava.com/clubs/94708/discussion" rel="nofollow">Strava Club posts</a> to see what's going on</p>
+		<p><b>You simply turn up at <strong>8am</strong> outside outside the <a href="https://goo.gl/maps/pHoNRKWtzp1AgttB8" rel="nofollow">Hilltop Café</a> with your bike</b>. We will often have a pre-ride coffee and a chat before heading out.</p>
+		<p>If it's your first ride with us, make sure you sign up to our <a href="https://slack.hovelo.co.uk/invite">Slack group</a> (or post a note on <a href="https://www.strava.com/clubs/94708/discussion" rel="nofollow">Strava</a>) and introduce yourself - that way we can make sure someone is there to welcome you and show you the ropes!</p>
 	</section>
 
 	<section class="wrap featured hero" id="signup">
 		<div>
-			<h2>Strava</h2>
-			<p>We organise rides & meetups via the Stava club. You don't have to have been out with us to join, so sign up, say hello and organise your first ride!</p>
-			<p><a href="https://www.strava.com/clubs/hovelo" class="button">Join the Club</a></p>
+			<h2>Slack</h2>
+			<p>We organise rides & meetups via the Slack group. You don't have to have been out with us to join, so sign up, say hello and organise your first ride!</p>
+			<p><a href="https://slack.hovelo.co.uk/invite" class="button" aria-label="Join Hovélo on Slack">Join the Club</a></p>
 		</div>
 	</section>
 
@@ -98,17 +108,8 @@
 		<p>Although there will be people to help, you should be prepared for any eventuality. Make sure you have a <b>pump</b> and <b>spare inner tube</b> with you to fix that puncture, and plenty of <b>water</b> and <b>food</b> (such as energy bars) to keep you going.</p> Most importantly, bring along a <b>good sense of humour</b>!
 	</section>
 
-
-
-	<section class="wrap">
-		<h2>With thanks to...</h2>
-		<p class="sponsors">
-			<a href="http://smallbatchcoffee.co.uk/" rel="nofollow"><img src="assets/images/sponsors/small-batch.png" alt="Small Batch Coffee Company"></a>
-		</p>
-	</section>
-
 	<link rel="stylesheet" type="text/css" href="assets/libs/leaflet/leaflet.css">
-	<script src="assets/libs/leaflet/leaflet.js"></script>
+	<script src="assets/libs/leaflet/leaflet.js" async></script>
 
 	<script>
 	if ('serviceWorker' in navigator) {
@@ -121,12 +122,12 @@
 	});
 
 	var map = L.map('js-map')
-		.setView([50.833877, -0.171479], 12)
+		.setView([50.8575541,-0.1759137], 12)
 		.addLayer(osm);
 
-	L.marker([50.833877, -0.171479])
+	L.marker([50.8575541,-0.1759137])
 		.addTo(map)
-		.bindPopup('<strong>Small Batch</strong>');
+		.bindPopup('<strong>Hilltop Café</strong>');
 
 	</script>
 </body>
