@@ -78,6 +78,11 @@ h2 {
 	}
 }
 
+.subtle h2 {
+	font-size: 2rem;
+}
+
+
 p {
 	margin: 0 auto 1rem;
 }
@@ -241,11 +246,24 @@ a:hover {
 	background: #176688;
 	color: #fff;
 }
+.buttonSmall {
+	font-size: 0.9rem;
+	padding: 0.5rem 1rem;
+}
+.subtle .button {
+	background: none;
+	color: #017db3;
+	padding-left: 0;
+	padding-right: 0;
+}
+.subtle .button:hover {
+	text-decoration: underline;
+}
 
 .map {
 	position: relative;
 	min-height: 15rem;
-	height: 25vw;
+	height: 50vh;
 	margin-bottom: 1.5rem;
 	margin-top: 1.5rem;
 }

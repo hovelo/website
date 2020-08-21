@@ -77,16 +77,22 @@
 		<p>If you’d like to ride with us, we’d love to see you for an <strong>8am</strong> start every <strong>Sunday</strong> at the <strong>Hilltop Café</strong> - located at the top of Dyke Road by the roundabout.</p>
 	</section>
 
-	<div class="map" id="js-map"></div>
-
 	<section class="wrap">
 		<h2>What is Hovélo?</h2>
 		<p>Unlike other cycling clubs, Hovélo has no membership fees, no committee meetings, no racing and no-one in charge. Our aim is to turn up on Sunday and ride through the Sussex countryside.</p>
 		<p>We are a friendly and informal group of road cyclists. The age and ability varies massively and we're ultimately about enjoying a beautiful weekend ride.</p>
-		<p>Hovélo is open to everyone but you'll need to be comfortable riding at an average speed (including climbs...and there are some) of 14 - 16mph (22 - 25 kmph).</p>
-		<p>Rides aren't led like a traditional cycling club, but decided on the day by who turns up and how they're feeling. The speed is determined by the riders too, plus, we don’t drop anybody.</p>
-		<p>This isn't about tearing people's legs off or suffering - you can find that elsewhere. This is about getting used to riding in a group and having fun. There'll be chatting, jokes and discussions about cycling etiquette.</p>
+		<p>Hovélo is open to everyone but you'll need to be comfortable riding at an average speed (including climbs...and there are some) of 14 - 19mph (22 - 30 kmph).</p>
+		<p>Rides aren't led like a traditional cycling club, but decided on the day (or a few days before on Slack) by who turns up and how they're feeling. The speed is determined by the riders too, plus, we don’t drop anybody. Our ride lengths van vary between 30 - 60 miles (45 - 100km) depending on who is riding and when they need to be back by.</p>
+		<p>This isn't about tearing people's legs off or suffering - you can find that elsewhere. This is about getting used to riding in a group and having fun. There'll be chatting, jokes and discussions about cycling etiquette (and maybe a post-ride beer or coffee).</p>
 		<p>Shaved legs entirely optional for both sexes.</p>
+	</section>
+
+	<section class="subtle wrap">
+		<div class="map" id="js-map"></div>
+
+		<h2>Routes</h2>
+		<p>Hovélo rides can be spontaneous or they can be planned beforehand. We have a few "old faithfuls" we rely on, but we might sometimes put a new spin on one (a different road or direction). Click the button below to load a sample set of routes onto the map above (warning, it is a lot of data - make sure you are on Wifi!)</p>
+		<button onclick="loadRoutes()" class="button">Load a sample set of routes</button>
 	</section>
 
 	<section class="wrap">
@@ -108,26 +114,50 @@
 		<p>Although there will be people to help, you should be prepared for any eventuality. Make sure you have a <b>pump</b> and <b>spare inner tube</b> with you to fix that puncture, and plenty of <b>water</b> and <b>food</b> (such as energy bars) to keep you going.</p> Most importantly, bring along a <b>good sense of humour</b>!
 	</section>
 
-	<link rel="stylesheet" type="text/css" href="assets/libs/leaflet/leaflet.css">
-	<script src="assets/libs/leaflet/leaflet.js"></script>
+	<link rel="stylesheet" type="text/css" href="/assets/libs/leaflet/leaflet.css">
+	<script src="/assets/libs/leaflet/leaflet.js"></script>
+	<script src="/assets/libs/gpx.js"></script>
 
 	<script>
 	if ('serviceWorker' in navigator) {
 		navigator.serviceWorker.register('sw.js');
 	}
-	var osm = L.tileLayer('https://tile.thunderforest.com/cycle/{z}/{x}/{y}.jpg80?apikey=5314e00513e34e5ba4b92f2c0faee0bf', {
-		attribution: '<a href="https://www.opencyclemap.org/docs/">What do the lines mean?</a>. Maps &copy; <a href="https://www.thunderforest.com">Thunderforest</a>, Data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
+
+
+	var osm = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+		subdomains: 'abcd',
 		minZoom: 0,
 		maxZoom: 18
 	});
 
 	var map = L.map('js-map')
-		.setView([50.8575541,-0.1759137], 12)
+		.setView([50.8575541,-0.1759137], 13)
 		.addLayer(osm);
 
 	L.marker([50.8575541,-0.1759137])
 		.addTo(map)
 		.bindPopup('<strong>Hilltop Café</strong>');
+
+	function loadRoutes() {
+		for (var i = 1; i < 9; i++) {
+			new L.GPX('/assets/routes/' + i +'.gpx', {
+				async: true,
+				marker_options: {
+					startIconUrl: '',
+					endIconUrl: '',
+					shadowUrl: ''
+				},
+				polyline_options: {
+					color: 'hsl(' + (i * (360 / 8)) + ', 100%, 40%)',
+					opacity: 0.5,
+					weight: 3,
+					lineCap: 'round'
+				}
+			}).addTo(map);
+		}
+		map.setZoom(10);
+	}
 
 	</script>
 </body>
