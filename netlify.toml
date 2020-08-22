@@ -8,5 +8,5 @@
 
 [[redirects]]
 	from = "/mail"
-	to = "https://mail.zoho.com/zm/"
+	to = "https://accounts.zoho.eu/signin"
 	status = 301
