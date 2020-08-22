@@ -1,2 +1,12 @@
 [build]
 	publish = "html/"
+
+[[redirects]]
+	from = "https://hovelo.co.uk"
+	to = "https://www.hovelo.co.uk"
+	status = 301
+
+[[redirects]]
+	from = "/mail"
+	to = "https://mail.zoho.com/zm/"
+	status = 301
