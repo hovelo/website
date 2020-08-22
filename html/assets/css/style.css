@@ -79,7 +79,7 @@ h2 {
 }
 
 .subtle h2 {
-	font-size: 2rem;
+	font-size: 2.5rem;
 }
 
 
@@ -253,11 +253,11 @@ a:hover {
 .subtle .button {
 	background: none;
 	color: #017db3;
-	padding-left: 0;
-	padding-right: 0;
+	border: 0.125rem solid currentColor;
+	padding: 0.5rem 0.75rem;
 }
 .subtle .button:hover {
-	text-decoration: underline;
+	color: #DB2A44;
 }
 
 .map {
