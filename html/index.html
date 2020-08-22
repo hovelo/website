@@ -140,7 +140,7 @@
 		.bindPopup('<strong>Hilltop Café</strong>');
 
 	function loadRoutes() {
-		for (var i = 1; i < 9; i++) {
+		for (var i = 1; i < 10; i++) {
 			new L.GPX('/assets/routes/' + i +'.gpx', {
 				async: true,
 				marker_options: {
@@ -149,7 +149,7 @@
 					shadowUrl: ''
 				},
 				polyline_options: {
-					color: 'hsl(' + (i * (360 / 8)) + ', 100%, 40%)',
+					color: 'hsl(' + (i * (360 / 10)) + ', 100%, 40%)',
 					opacity: 0.5,
 					weight: 3,
 					lineCap: 'round'
