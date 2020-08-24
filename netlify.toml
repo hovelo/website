@@ -2,11 +2,13 @@
 	publish = "html/"
 
 [[redirects]]
-	from = "https://hovelo.co.uk"
-	to = "https://www.hovelo.co.uk"
-	status = 301
-
-[[redirects]]
 	from = "/mail"
 	to = "https://accounts.zoho.eu/signin"
 	status = 301
+
+[[headers]]
+	# Define which paths this specific [[headers]] block will cover.
+	for = "/*"
+	
+	[headers.values]
+		Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
