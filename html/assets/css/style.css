@@ -288,6 +288,10 @@ a:hover {
 	background: #FFFFdd;
 	border: 0.25rem solid #c5d4df;
 }
+.announcement.error {
+	background: rgba(219, 42, 68, 0.1);
+    border-color: #DB2A44;
+}
 .wrap + .announcement {
 	border-top: 0.25rem solid #c5d4df;
 }
