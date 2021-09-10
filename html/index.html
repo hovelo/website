@@ -73,11 +73,8 @@
 	</section>
 
 	<section class="wrap plain hero">
-		<div class="announcement error">
-			<h2>⚠️ Group rides are temporarily suspended until Thursday 3rd December in line with the new national restrictions.</h2>
-		</div>
 		<h2 class="meta">Hovélo is a group of friendly riders out to explore the Sussex countryside and to have&nbsp;fun.</h2>
-		<p>If you’d like to ride with us, we’d love to see you for an <strong>8am</strong> start every <strong>Sunday</strong> at the <strong>Hilltop Café</strong> - located at the top of Dyke Road by the roundabout.</p>
+		<p>If you’d like to ride with us, we’d love to see you for an <strong>8am</strong> start every <strong>Sunday</strong> at the <strong>Goldstone Road Small Batch&nbsp;Coffee&nbsp;Company</strong> - located at the top of Dyke Road by the roundabout.</p>
 	</section>
 
 	<section class="wrap">
@@ -113,13 +110,12 @@
 		<div class="map" id="js-map"></div>
 
 		<h2>Routes</h2>
-		<p>Hovélo rides can be spontaneous or they can be planned beforehand. We have a few "old faithfuls" we rely on, but we might sometimes put a new spin on one (a different road or direction). Click the button below to load a sample set of routes onto the map above (warning, it is a lot of data - make sure you are on Wifi!)</p>
-		<button onclick="loadRoutes()" class="button">Load a sample set of routes</button>
+		<p>Hovélo rides can be spontaneous or they can be planned beforehand. We have a few "old faithfuls" we rely on, but we might sometimes put a new spin on one (a different road or direction)
 	</section>
 
 	<section class="wrap">
 		<h2>How do I Join?</h2>
-		<p><b>You simply turn up at <strong>8am</strong> outside outside the <a href="https://goo.gl/maps/pHoNRKWtzp1AgttB8" rel="nofollow">Hilltop Café</a> with your bike</b>. We will often have a pre-ride coffee and a chat before heading out.</p>
+		<p><b>You simply turn up at <strong>8am</strong> outside outside the Goldstone Villas Small Batch Coffee Company with your bike</b>. We will often have a pre-ride coffee and a chat before heading out.</p>
 		<p>If it's your first ride with us, make sure you sign up to our <a href="https://slack.hovelo.co.uk/invite">Slack group</a> (or post a note on <a href="https://www.strava.com/clubs/94708/discussion" rel="nofollow">Strava</a>) and introduce yourself - that way we can make sure someone is there to welcome you and show you the ropes!</p>
 	</section>
 
@@ -154,32 +150,12 @@
 	});
 
 	var map = L.map('js-map')
-		.setView([50.857457, -0.173888], 13)
+		.setView([50.833877, -0.171479], 13)
 		.addLayer(osm);
 
-	L.marker([50.857457, -0.173888])
+	L.marker([50.833877, -0.171479])
 		.addTo(map)
-		.bindPopup('<strong>Hilltop Café</strong>');
-
-	function loadRoutes() {
-		for (var i = 1; i < 10; i++) {
-			new L.GPX('/assets/routes/' + i +'.gpx', {
-				async: true,
-				marker_options: {
-					startIconUrl: '',
-					endIconUrl: '',
-					shadowUrl: ''
-				},
-				polyline_options: {
-					color: 'hsl(' + (i * (360 / 10)) + ', 100%, 40%)',
-					opacity: 0.5,
-					weight: 3,
-					lineCap: 'round'
-				}
-			}).addTo(map);
-		}
-		map.setZoom(10);
-	}
+		.bindPopup('<strong>Small Batch</strong>');
 
 	</script>
 </body>
