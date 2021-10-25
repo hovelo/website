@@ -1,11 +1,6 @@
 [build]
 	publish = "html/"
 
-[[redirects]]
-	from = "/mail"
-	to = "https://accounts.zoho.eu/signin"
-	status = 301
-
 [[headers]]
 	# Define which paths this specific [[headers]] block will cover.
 	for = "/*"
