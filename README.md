@@ -4,10 +4,13 @@
 
 This repository is the website for Hovélo, found at https://hovelo.co.uk/
 
+Check us out on [Strava](https://www.strava.com/clubs/94708).
+
+<iframe allowtransparency='true' frameborder='0' height='160' scrolling='no' src='https://www.strava.com/clubs/94708/latest-rides/e828651cc58fee6d0ed999f86750147cf130d2c3?show_rides=false' width='300'></iframe>
 
 ## Contributing
 
-We welcome contributions and suggestions to the website, either create an [issue](https://github.com/hovelo/website/issues), [pull request](https://github.com/hovelo/website/pulls) or send a message on [Slack](https://hovelo.slack.com/).
+We welcome contributions and suggestions to the website, either create an [issue](https://github.com/hovelo/website/issues) or a [pull request](https://github.com/hovelo/website/pulls).
 
 ## Hosting
 
