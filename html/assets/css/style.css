@@ -102,6 +102,14 @@ a:hover {
 	color: #176688;
 }
 
+footer {
+	padding: 1rem;
+	text-align: center;
+	margin-top: 2rem;
+	border-top: thin solid #c5d4df;
+	font-size: 0.95rem;
+}
+
 @media screen and (min-width: 35em) {
 	.layout-two {
 		display: table;
@@ -109,10 +117,20 @@ a:hover {
 		width: 100%;
 		margin-bottom: 2rem;
 	}
+	.layout-two-top .column {
+		vertical-align: top;
+	}
 	.layout-two .column {
 		display: table-cell;
 		width: 2%;
 		vertical-align: middle;
+		padding: 0 0.5rem;
+	}
+	.layout-two .column:first-child {
+		padding-left: 0;
+	}
+	.layout-two .column:last-child {
+		padding-right: 0;
 	}
 }
 
@@ -197,6 +215,7 @@ a:hover {
 	gap: 1rem;
 	align-items: center;
 	margin: 0 0 1.5rem;
+	text-decoration: none;
 }
 .heading h1 {
 	margin-bottom: 0;
