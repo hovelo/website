@@ -113,6 +113,26 @@
 		.addTo(map)
 		.bindPopup('<strong>Small Batch</strong>');
 
+	function loadRoutes() {
+		for (var i = 1; i < 9; i++) {
+			new L.GPX('/assets/routes/' + i + '.gpx', {
+				async: true,
+				marker_options: {
+					startIconUrl: '',
+					endIconUrl: '',
+					shadowUrl: ''
+				},
+				polyline_options: {
+					color: 'hsl(' + (i * (360 / 8)) + ', 100%, 40%)',
+					opacity: 0.5,
+					weight: 3,
+					lineCap: 'round'
+				}
+			}).addTo(map);
+		}
+		map.setZoom(10);
+	}
+	loadRoutes()
 	</script>
 </body>
 </html>
